@@ -7,6 +7,15 @@ By default all metadata fields have a 255 character length field where metadata 
 
 There are two important factors in making these recommendations. First, that the group and gov modules are consistent with one another, note the number of proposals made by all groups may be quite large. Second, that client applications such as block explorers and governance interfaces have confidence in the consistency of metadata structure accross chains.
 
+## User
+```json 
+{
+  "name": "",
+  "avatar": "",
+  "website": "" 
+}
+```
+
 ## Proposal
 Location: off-chain as json object stored on IPFS (mirrors gov proposal)
 ```json 
